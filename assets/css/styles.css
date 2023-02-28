@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
+
+html,
+body {
+  margin: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.app-colors {
+  /* sky blue */
+  --sky-blue: #92a8f2;
+  --sky-blue-50: #e8edfc;
+  --sky-blue-100: #dbe3fa;
+  --sky-blue-200: #c9d5f8;
+  --sky-blue-300: #b7c6f6;
+  --sky-blue-400: #a4b7f4;
+  --sky-blue-600: #7f9af0;
+  --sky-blue-700: #6d8bee;
+  --sky-blue-800: #5b7dec;
+  --sky-blue-900: #486eea;
+
+  /* turquoise */
+  --turquoise: #9ce3e8;
+  --turquoise-50: #eefafb;
+  --turquoise-100: #def6f7;
+  --turquoise-200: #cdf1f3;
+  --turquoise-300: #bdecef;
+  --turquoise-400: #abe7eb;
+  --turquoise-600: #8bdee4;
+  --turquoise-700: #7bd9e0;
+  --turquoise-800: #6ad5dc;
+  --turquoise-900: #5ad0d8;
+
+  /* powder blue */
+  --powder-blue: #8f97f5;
+  --powder-blue-50: #eceefd;
+  --powder-blue-100: #dadcfc;
+  --powder-blue-200: #c7cbfa;
+  --powder-blue-300: #a9aff7;
+  --powder-blue-400: #a2a9f6;
+  --powder-blue-600: #7c86f3;
+  --powder-blue-700: #6a75f1;
+  --powder-blue-800: #5764ef;
+  --powder-blue-900: #4452ee;
+}
