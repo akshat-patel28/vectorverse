@@ -1,0 +1,30 @@
+.header {
+  height: 75px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+.logo-container {
+  width: 150px;
+}
+.nav-links {
+  list-style: none;
+  width: 50%;
+  justify-content: end;
+  height: 100%;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+}
+.nav-links > li {
+  cursor: pointer;
+}
+.nav-btn {
+  width: 130px;
+  text-align: center;
+  border-radius: 8px;
+  margin: 0;
+  border: 1px solid var(--gray);
+  padding: 15px 8px;
+}
