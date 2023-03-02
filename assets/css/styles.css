@@ -150,3 +150,9 @@ body {
 .cursor-pointer {
   cursor: pointer;
 }
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}

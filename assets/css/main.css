@@ -1,0 +1,41 @@
+.banner-section {
+  width: 100%;
+  height: calc(100vh - 75px);
+  background-image: linear-gradient(
+    to bottom right,
+    var(--turquoise-100),
+    var(--turquoise-100),
+    var(--turquoise),
+    var(--sky-blue),
+    var(--powder-blue-600),
+    var(--purple)
+  );
+  filter: blur(180px);
+}
+.banner-bubble {
+  background-color: #fff;
+  border-radius: 50%;
+  background-color: #fff;
+  filter: blur(40px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.banner-bubble-1 {
+  width: 250px;
+  height: 250px;
+  right: 10%;
+  top: 40%;
+}
+.banner-bubble-2 {
+  width: 150px;
+  height: 150px;
+  right: 30%;
+  top: 20%;
+}
+.banner-bubble-3 {
+  width: 200px;
+  height: 200px;
+  left: 5%;
+  top: -10%;
+}
