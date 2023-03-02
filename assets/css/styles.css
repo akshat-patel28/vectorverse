@@ -3,9 +3,11 @@
 html,
 body {
   margin: 0;
+  font-family: "Montserrat Alternates", sans-serif !important;
+}
+.font-montserrat-alternate {
   font-family: "Montserrat Alternates", sans-serif;
 }
-
 .app-colors {
   /* sky blue */
   --sky-blue: #92a8f2;
@@ -122,4 +124,29 @@ body {
 }
 .display-xl {
   font-size: 72px;
+}
+
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+.d-flex {
+  display: flex;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+.align-items-center {
+  align-items: center;
+}
+.cursor-pointer {
+  cursor: pointer;
 }
