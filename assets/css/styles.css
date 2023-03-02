@@ -42,6 +42,11 @@ body {
   --powder-blue-700: #6a75f1;
   --powder-blue-800: #5764ef;
   --powder-blue-900: #4452ee;
+
+  --gray: #b8bcd7;
+  --dark-gray: #42525e;
+  --purple: #97629a;
+  --blue: #455db3;
 }
 .container {
   width: 100%;
