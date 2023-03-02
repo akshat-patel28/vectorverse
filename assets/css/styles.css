@@ -80,3 +80,46 @@ body {
     max-width: 1320px;
   }
 }
+
+.font-medium {
+  font-weight: 500;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-heavy {
+  font-weight: 800;
+}
+.text-xs {
+  font-size: 10px;
+}
+.text-sm {
+  font-size: 12px;
+}
+.text-md {
+  font-size: 15px;
+}
+.text-lg {
+  font-size: 18px;
+}
+.text-xl {
+  font-size: 20px;
+}
+.display-xs {
+  font-size: 26px;
+}
+.display-sm {
+  font-size: 32px;
+}
+.display-md {
+  font-size: 38px;
+}
+.display-lg {
+  font-size: 52px;
+}
+.display-xl {
+  font-size: 72px;
+}
