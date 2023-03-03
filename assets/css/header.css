@@ -29,3 +29,12 @@
   border: 1px solid var(--purple);
   padding: 15px 8px;
 }
+@media (max-width: 992px) {
+  .nav-links {
+    gap: 20px;
+  }
+  .nav-btn {
+    width: 90px;
+    padding: 10px 8px;
+  }
+}
