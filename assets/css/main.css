@@ -137,3 +137,40 @@
 .user-profile-bubble-3 {
   transform: translateX(-15px);
 }
+@media (max-width: 992px) {
+  .banner-image-container {
+    width: 200px;
+    height: 250px;
+    margin-top: 30px;
+  }
+  .banner-title {
+    margin-top: 30px;
+  }
+  .graphic-info-container {
+    right: 10%;
+  }
+  .banner-section-background {
+    height: 700px;
+  }
+  .banner-text-1 {
+    width: 180px;
+  }
+  .banner-static-image {
+    width: 120px;
+    height: 140px;
+  }
+  .banner-bubble-1 {
+    width: 150px;
+    height: 150px;
+    top: 28%;
+    right: 5%;
+  }
+  .banner-bubble-2 {
+    width: 120px;
+    height: 120px;
+    top: 10%;
+  }
+  .banner-dot-1 {
+    top: 90%;
+  }
+}
