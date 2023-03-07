@@ -14,7 +14,7 @@ This project is free to use and does not contains any license.
 
 # Installing Vectorverse
 
-To install vCard, follow these steps:
+To install Vectorverse, follow these steps:
 
 Linux and macOS:
 
