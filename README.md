@@ -17,7 +17,13 @@ This project is free to use and does not contains any license.
 To install vCard, follow these steps:
 
 Linux and macOS:
+
+```bash
 sudo git clone git@github.com:akshat-patel28/vectorverse.git
+```
 
 Windows:
+
+```bash
 git clone git@github.com:akshat-patel28/vectorverse.git
+```
