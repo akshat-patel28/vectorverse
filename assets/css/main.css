@@ -13,8 +13,10 @@
   filter: blur(180px);
   top: 0;
   left: 0;
+  z-index: -1;
 }
 .banner-bubble {
+  z-index: -1;
   background-color: #fff;
   border-radius: 50%;
   background-color: #fff;
@@ -41,9 +43,7 @@
   left: 5%;
   top: -10%;
 }
-.banner {
-  z-index: 999;
-}
+
 .banner-title {
   width: 45%;
   margin: 0 auto;
