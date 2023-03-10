@@ -188,3 +188,18 @@
     top: 90%;
   }
 }
+@media (max-width: 768px) {
+  .banner-title {
+    width: 65%;
+  }
+  .banner-image-container {
+    width: 190px;
+    height: 230px;
+  }
+  .graphic-info-container {
+    right: 2%;
+  }
+  .banner-text-1 {
+    left: 2%;
+  }
+}
