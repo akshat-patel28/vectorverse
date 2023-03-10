@@ -203,3 +203,27 @@
     left: 2%;
   }
 }
+@media (max-width: 576px) {
+  .banner-text-1 {
+    display: none;
+  }
+  .graphic-info-container {
+    top: 105%;
+    right: 50%;
+    transform: translateX(60%);
+  }
+  .banner-title {
+    width: 90%;
+  }
+  .banner-static-image {
+    top: 100%;
+  }
+  .banner-dot-1 {
+    top: 80%;
+    left: 15%;
+  }
+  .banner-dot-3 {
+    right: 20%;
+    top: 70%;
+  }
+}

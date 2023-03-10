@@ -113,6 +113,9 @@
   }
 }
 @media (max-width: 576px) {
+  .header {
+    padding: 0 10px;
+  }
   .nav-links {
     width: 90%;
   }
