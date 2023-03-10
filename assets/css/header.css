@@ -1,10 +1,8 @@
 .header {
   height: 75px;
-  position: relative;
-  top: 0;
-  left: 0;
   background-color: transparent;
   z-index: 999;
+  overflow: hidden;
 }
 .logo-container {
   width: 150px;
@@ -113,10 +111,14 @@
   }
 }
 @media (max-width: 576px) {
-  .header {
-    padding: 0 10px;
-  }
   .nav-links {
     width: 90%;
+  }
+  .logo-container {
+    width: 175px;
+  }
+  .header-container {
+    min-width: 100%;
+    justify-content: space-around;
   }
 }
