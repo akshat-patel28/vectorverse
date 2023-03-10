@@ -49,7 +49,14 @@
   .nav-links {
     position: fixed;
     flex-direction: column;
-    background-color: var(--sky-blue-200);
+    background-image: linear-gradient(
+      var(--powder-blue-100),
+      var(--powder-blue-200),
+      var(--powder-blue-300),
+      var(--powder-blue-400),
+      var(--powder-blue),
+      var(--powder-blue-600)
+    );
     height: 100%;
     top: 0;
     justify-content: flex-start;
