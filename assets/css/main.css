@@ -251,6 +251,14 @@
     #ffffff
   );
 }
+.art-section-bubble-2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  bottom: 20%;
+  left: 0%;
+  background: linear-gradient(to top right, #ec6ead, #89fffd);
+}
 .art-info-container {
   width: 82%;
   margin: 0 auto;
