@@ -348,4 +348,8 @@
     width: 80%;
     margin: 0 auto;
   }
+  .art-image-container {
+    width: 230px;
+    height: 280px;
+  }
 }
