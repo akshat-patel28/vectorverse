@@ -264,15 +264,17 @@
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
-  gap: 50px;
 }
 .art-image-container {
-  width: 400px;
-  height: 380px;
+  width: 300px;
+  height: 350px;
   overflow: hidden;
   margin: 60px 0;
   border-radius: 50px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.info-container {
+  width: 65%;
 }
 .art-info-text {
   color: var(--purple);
