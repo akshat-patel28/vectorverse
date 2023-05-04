@@ -26,3 +26,13 @@
   font-weight: 800;
   color: var(--purple);
 }
+.footer-logos {
+  gap: 5px;
+  margin-top: 10px;
+}
+.footer-logo-container {
+  width: 25px;
+  height: 25px;
+  border-radius: 15px;
+  overflow: hidden;
+}
