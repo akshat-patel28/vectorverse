@@ -36,3 +36,8 @@
   border-radius: 15px;
   overflow: hidden;
 }
+@media (max-width: 992px) {
+  .footer {
+    background-color: var(--powder-blue-700);
+  }
+}
