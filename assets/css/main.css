@@ -1,3 +1,4 @@
+/* banner section */
 .banner-section-background {
   width: 100%;
   height: calc(100vh - 75px);
@@ -225,5 +226,133 @@
   .banner-dot-3 {
     right: 20%;
     top: 70%;
+  }
+}
+
+/* art info section */
+.art-section {
+  margin-top: 150px;
+  min-height: 400px;
+  padding-top: 100px;
+  margin-bottom: 80px;
+}
+.art-section-bubble-1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: 0;
+  right: 5%;
+  background: linear-gradient(
+    to top left,
+    #a770ef,
+    #cf8bf3,
+    #fdb99b,
+    #fcc6b0,
+    #ffeded,
+    #ffffff
+  );
+}
+.art-section-bubble-2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  bottom: 20%;
+  left: 0%;
+  background: linear-gradient(to top right, #ec6ead, #89fffd);
+}
+.art-info-container {
+  width: 82%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.art-image-container {
+  width: 300px;
+  height: 350px;
+  overflow: hidden;
+  margin: 60px 0;
+  border-radius: 50px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.info-container {
+  width: 65%;
+}
+.art-info-text {
+  color: var(--purple);
+  margin: 0;
+  padding: 0;
+}
+.art-info-title {
+  margin: 8px 0;
+  font-weight: 900;
+}
+.art-info {
+  gap: 30px;
+}
+.info-1,
+.info-2 {
+  text-align: justify;
+  width: 50%;
+}
+@media (max-width: 1200px) {
+  .art-info-container {
+    width: 95%;
+  }
+  .art-image-container {
+    width: 280px;
+    height: 320px;
+  }
+  .art-section-bubble-1 {
+    top: 90px;
+  }
+  .art-section-bubble-2 {
+    left: -5%;
+  }
+}
+@media (max-width: 992px) {
+  .art-section {
+    padding-top: 50px;
+    margin-top: 100px;
+  }
+  .art-info-container {
+    width: 100%;
+    gap: 40px;
+  }
+  .art-image-container {
+    width: 250px;
+    height: 300px;
+  }
+}
+@media (max-width: 768px) {
+  .art-info-container {
+    width: 100%;
+    flex-direction: column;
+    gap: 0;
+  }
+  .art-info-text,
+  .art-info-title {
+    text-align: center;
+  }
+  .info-container {
+    width: 100%;
+  }
+  .art-section {
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .art-info {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .info-1,
+  .info-2 {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .art-image-container {
+    width: 230px;
+    height: 280px;
   }
 }
